@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lexend+Giga&display=swap');
+html{
+    font-family: Lexend Giga;
+    color:navy;
+    background: linear-gradient(rgb(248,203, 137),white);
+    align-content: center;    
+    font-weight: bold;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.marco{
+    border: 2px solid black;
+    padding: 3px;
+    box-shadow: 3px 3px gray ;
+    background-color: white;
+}
