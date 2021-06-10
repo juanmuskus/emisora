@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+#marco{
+    padding: 5px; 
+    background-color: white; 
+    width:600px; 
+    border-radius: 10px; 
+    border: 1px solid black; 
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width:10%;
+    height:10%; 
+}
+
+body{
+    background-image: linear-gradient(rgba(173,241,162,1), white); 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 100%;
+    font-family: Cabin;
+}
+
+@media only screen and (max-width: 600px) {
+    #titulo{
+        font-size: 10px;
+    }
+
+    #marco{
+        padding:3px; 
+        width:300px; 
+        border-radius: 7px; 
+        border: 1px solid black;
+        text-align:center; 
+        display: flex;
+        align-items: center;
+    }
+    
+}
